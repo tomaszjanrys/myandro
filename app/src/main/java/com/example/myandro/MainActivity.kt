@@ -1,5 +1,6 @@
 package com.example.myandro
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -39,8 +40,12 @@ class MainActivity : AppCompatActivity() {
 //btn new activity 2
         val btnActivity2: Button = findViewById(R.id.btnNewActivity2)
         btnActivity2.setOnClickListener{
+            val intent = Intent(this, Activity1::class.java)
+            startActivity(intent)
+
             Toast.makeText(this,"Nowe okno", Toast.LENGTH_SHORT).show()
         }
+
 
 
     }
