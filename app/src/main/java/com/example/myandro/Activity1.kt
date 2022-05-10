@@ -7,6 +7,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.myandro.databinding.Activity1Binding
+import com.example.myandro.databinding.Activity2Binding
 
 class Activity1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,6 +32,16 @@ class Activity1 : AppCompatActivity() {
         biding.btnTestBIDDING.setOnClickListener{
             Toast.makeText(this,"to jest biding", Toast.LENGTH_SHORT).show()
         }
+
+
+        val btnAct2Bind = Activity1Binding.inflate(layoutInflater)
+        setContentView(btnAct2Bind.root)
+        btnAct2Bind.btnActivity2BindingID.setOnClickListener {
+            val intAct2 = Intent(this, Activity2::class.java)
+            startActivity(intAct2)
+            Toast.makeText(this,"ok",Toast.LENGTH_SHORT).show()
+        }
+
     }
 
 

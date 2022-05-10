@@ -23,4 +23,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="@string/btnTestBidnigSTRING" />
+    <!--Btn do activity 2-->
+    <Button
+        android:id="@+id/btnActivity2BindingID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/btnActity2BindingSTRING" />
 </LinearLayout>

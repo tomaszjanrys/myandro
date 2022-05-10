@@ -6,5 +6,6 @@
     <string name="btnNewActivity2">New Activity 2</string>
     <string name="title_activity_main2">MainActivity2</string>
     <string name="btnBackMainActString">Back to Start</string>
-<string name="btnTestBidnigSTRING">To jest Binding</string>
+    <string name="btnTestBidnigSTRING">To jest Binding</string>
+    <string name="btnActity2BindingSTRING">Go to Activity 2</string>
 </resources>
