@@ -17,4 +17,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="end"
         android:text="@string/btnBackMainActString" />
+    <Button
+        android:id="@+id/btnTestBIDDING"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/btnTestBidnigSTRING" />
 </LinearLayout>
