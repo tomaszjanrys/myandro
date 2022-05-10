@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">MyAndro</string>
+    <!--name dowolna nazwa uzywana potem w pliku xml-->
+    <string name="btnStart">Start Andro22</string>
+    <string name="btnText1">Info</string>
 </resources>
