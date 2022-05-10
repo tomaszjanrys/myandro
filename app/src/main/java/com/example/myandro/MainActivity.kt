@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         myTextView1.setText("bowy text")
 
         val myTextView2: TextView = findViewById(R.id.myTextView2)
-        myTextView2.setText("Kolejny text")
+        myTextView2.setText("git push")
     }
 
 
