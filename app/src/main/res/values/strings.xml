@@ -3,4 +3,5 @@
     <!--name dowolna nazwa uzywana potem w pliku xml-->
     <string name="btnStart">Start Andro22</string>
     <string name="btnText1">Info</string>
+    <string name="btnNewActivity2">New Activity 2</string>
 </resources>

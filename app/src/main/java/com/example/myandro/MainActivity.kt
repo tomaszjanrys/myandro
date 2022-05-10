@@ -36,7 +36,11 @@ class MainActivity : AppCompatActivity() {
             btnStart.setText("${counter}")
             counter--
         }
-
+//btn new activity 2
+        val btnActivity2: Button = findViewById(R.id.btnNewActivity2)
+        btnActivity2.setOnClickListener{
+            Toast.makeText(this,"Nowe okno", Toast.LENGTH_SHORT).show()
+        }
 
 
     }

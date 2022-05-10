@@ -40,4 +40,12 @@
         android:text="@string/btnText1"
         android:layout_gravity="end"
         />
+    <!--Drugie okno btn-->
+    <Button
+        android:id="@+id/btnNewActivity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnNewActivity2"
+        android:layout_gravity="center_horizontal"
+        />
 </LinearLayout>
