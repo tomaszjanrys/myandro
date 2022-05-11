@@ -18,7 +18,7 @@ class Activity1 : AppCompatActivity() {
         val txtViewLayout2 : TextView = findViewById(R.id.textViewLayout2)
         txtViewLayout2.setText("Nowe okno")
 
-        //btn back to start
+        //btn back to start witchout bind with id
         val btnBtoStart : Button = findViewById(R.id.btnBackMainAcvID)
         btnBtoStart.setOnClickListener{
             val intent = Intent(this, MainActivity::class.java)
@@ -33,15 +33,21 @@ class Activity1 : AppCompatActivity() {
             Toast.makeText(this,"to jest biding", Toast.LENGTH_SHORT).show()
         }
 
-
+        //btn switch view with bind
         val btnAct2Bind = Activity1Binding.inflate(layoutInflater)
         setContentView(btnAct2Bind.root)
         btnAct2Bind.btnActivity2BindingID.setOnClickListener {
             val intAct2 = Intent(this, Activity2::class.java)
             startActivity(intAct2)
-            Toast.makeText(this,"ok",Toast.LENGTH_SHORT).show()
-        }
 
+        }
+        val btnzajecia4 = Activity1Binding.inflate(layoutInflater)
+        setContentView(btnzajecia4.root)
+
+        btnzajecia4.btnZajecia4ID.setOnClickListener {
+            val intent4 = Intent(this, Activity3Activity::class.java)
+            startActivity(intent4)
+        }
     }
 
 

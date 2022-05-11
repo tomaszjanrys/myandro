@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity3Activity">
+
+
+    <View
+        android:id="@+id/viewIDzajecia4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#052350"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="3"
+        />
+
+    <LinearLayout
+        android:id="@+id/viewIDzajecia6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF9800"
+        android:orientation="horizontal"
+        android:layout_weight="3"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:text="joke chauck noris"
+            />
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/viewIDzajecia5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="3">
+        <View
+            android:id="@+id/viewIDzajecia4a"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#052350"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="3"
+            />
+
+        <View
+            android:id="@+id/viewIDzajecia6a"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#4CFF00"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="3"
+            />
+        <View
+            android:id="@+id/viewIDzajecia7a"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FF0084"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="3"
+
+            />
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -48,4 +48,6 @@
         android:text="@string/btnNewActivity2"
         android:layout_gravity="center_horizontal"
         />
+
+
 </LinearLayout>

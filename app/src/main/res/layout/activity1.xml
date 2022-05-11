@@ -30,4 +30,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="@string/btnActity2BindingSTRING" />
+    <Button
+        android:id="@+id/btnZajecia4ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnZajecia4STRING"
+        android:layout_gravity="center_horizontal"
+        />
 </LinearLayout>

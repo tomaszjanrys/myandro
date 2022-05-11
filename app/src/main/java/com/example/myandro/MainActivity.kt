@@ -7,6 +7,8 @@ import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
+import com.example.myandro.databinding.Activity1Binding
+import com.example.myandro.databinding.Activity3Binding
 
 class MainActivity : AppCompatActivity() {
 
@@ -45,6 +47,8 @@ class MainActivity : AppCompatActivity() {
 
             Toast.makeText(this,"Nowe okno", Toast.LENGTH_SHORT).show()
         }
+//bt do zajec 4
+
 
 
 
