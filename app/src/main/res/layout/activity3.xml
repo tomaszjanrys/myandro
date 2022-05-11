@@ -48,7 +48,7 @@
             />
 
         <View
-            android:id="@+id/viewIDzajecia6a"
+            android:id="@+id/viewIDzajecia6aa"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#4CFF00"
