@@ -8,14 +8,28 @@
     tools:context=".Activity3Activity">
 
 
-    <View
+    <LinearLayout
         android:id="@+id/viewIDzajecia4"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#052350"
-        android:layout_gravity="center_horizontal"
-        android:layout_weight="3"
-        />
+        android:orientation="horizontal"
+        android:layout_weight="3">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="#023FEC"
+            android:layout_weight="3"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="#00DA2D"
+            android:layout_weight="3"
+            />
+</LinearLayout>
 
     <LinearLayout
         android:id="@+id/viewIDzajecia6"
@@ -31,6 +45,7 @@
             android:layout_gravity="center_horizontal"
             android:text="joke chauck noris"
             />
+
 </LinearLayout>
     <LinearLayout
         android:id="@+id/viewIDzajecia5"
