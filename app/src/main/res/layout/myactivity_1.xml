@@ -48,6 +48,12 @@
         android:text="@string/btnNewActivity2"
         android:layout_gravity="center_horizontal"
         />
-
-
+    <!--Activity 4-->
+        <Button
+            android:id="@+id/btnAtivity4ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnActivity4STRING"
+            android:layout_gravity="end"
+           />
 </LinearLayout>

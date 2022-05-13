@@ -9,6 +9,7 @@ import android.widget.TextView
 import android.widget.Toast
 import com.example.myandro.databinding.Activity1Binding
 import com.example.myandro.databinding.Activity3Binding
+import com.example.myandro.databinding.Activity4Binding
 
 class MainActivity : AppCompatActivity() {
 
@@ -47,9 +48,13 @@ class MainActivity : AppCompatActivity() {
 
             Toast.makeText(this,"Nowe okno", Toast.LENGTH_SHORT).show()
         }
-//bt do zajec 4
+//activity 4
 
-
+        val btnActivty4 : Button = findViewById(R.id.btnAtivity4ID)
+                btnActivty4.setOnClickListener{
+                    val intentAct4 = Intent(this, Activity4::class.java)
+                    startActivity(intentAct4)
+                }
 
 
     }
